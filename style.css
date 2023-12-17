@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* aplica determinada classes do tailwind a elementos com uma classe expecífica definida */
+@layer utilities {
+  .error {
+    @apply border-2;
+    @apply border-red-600;
+    @apply rounded-lg;
+  }
+}
