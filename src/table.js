@@ -53,6 +53,8 @@ function createTableBody(tableReference, tableItems, columnsArray) {
     return tbody;
   }
 
+  
+
   const tableBodyReference =
     tableReference.querySelector('tbody') ?? createTbodyElement(tableReference);
 
